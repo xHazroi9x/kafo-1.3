@@ -1,0 +1,34 @@
+.card {
+    width: 300px; /* Ayarlanabilir */
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px; /* Ayarlanabilir */
+    object-fit: cover;
+  }
+  
+  .card-text {
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Şeffaf siyah arka plan */
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .card-subtext {
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-subtext svg {
+    margin-right: 5px;
+  }
